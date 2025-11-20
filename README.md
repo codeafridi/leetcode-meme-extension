@@ -15,6 +15,9 @@ To use it -
 
 Download the folder
 Go to chrome://extensions
+
 Enable Developer mode
+
 Click Load unpacked and select the folder
+
 Enjoy LeetCoding with interactive memes!!
