@@ -1,4 +1,4 @@
-LeetCode Meme Extension
+**LeetCode Meme Extension**
 
 A small Chrome extension that adds a fun reaction when you run LeetCode test cases.
 
