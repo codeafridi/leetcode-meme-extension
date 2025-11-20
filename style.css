@@ -1,0 +1,26 @@
+.noice-judge-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 2147483647;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  user-select: none;
+}
+
+.noice-judge-overlay.show {
+  opacity: 1;
+}
+
+.noice-judge-overlay img {
+  width: 320px;
+  height: auto;
+  max-width: 70vw;
+  border-radius: 14px;
+  filter: drop-shadow(0 8px 28px rgba(0, 0, 0, 0.7));
+}

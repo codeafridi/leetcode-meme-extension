@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Noice Judge",
+  "version": "1.0",
+  "description": "Shows GIF memes for AC / Partial / Wrong on LeetCode & Codeforces",
+
+  "permissions": ["scripting"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*", "https://codeforces.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/noice.gif",
+        "icons/question.gif",
+        "icons/hellna.gif"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
